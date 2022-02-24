@@ -10,7 +10,7 @@ struct ExtraLottieView: UIViewRepresentable {
     let animationView = AnimationView()
     var fromProgress: CGFloat = 0.0
     
-    func makeUIView(context: UIViewRepresentableContext<LottieView>) -> UIView {
+    func makeUIView(context: UIViewRepresentableContext<ExtraLottieView>) -> UIView {
         let view = UIView(frame: .zero)
 
         let animation = Animation.named(name)
