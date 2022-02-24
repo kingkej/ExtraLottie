@@ -2,7 +2,7 @@ import UIKit
 import Lottie
 import SwiftUI
 
-struct LottieView: UIViewRepresentable {
+struct ExtraLottieView: UIViewRepresentable {
     var name = "success"
     var loopMode: LottieLoopMode = .loop
     var repeats = false
