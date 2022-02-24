@@ -1,5 +1,6 @@
 import UIKit
 import Lottie
+import SwiftUI
 
 struct LottieView: UIViewRepresentable {
     var name = "success"
